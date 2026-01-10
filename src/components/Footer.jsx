@@ -1,77 +1,10 @@
-// import React from 'react'
-// import assets from '../assets/assets'
-
-// const Footer = ({theme,setTheme})=>{
-//   return (
-//     <div className='bg-slate-50 dark:bg-gray-900 pt-10 mt-20 sm:mt-40 px-4 sm:px-10 lg:px-24 xl:px-40'>
-
-//         {/* footer top */}
-
-//         <div className='flex justify-between lg:items-center max-lg:flex-col gap-10'>
-//             <div className='space-y-5 text-sm text-gray-700 dark:text-gray-400'>
-//                 <img src={theme=== 'dark'? assets.logo_dark :assets.logo} className='w-32 sm:w-44' alt="" />
-//                 <p className='max-w-md'>From strategy to excecution, we craft digital solutionsthat move your business forward.</p>
-
-//                 <ul className='flex gap-8'>
-//                     <li><a className='hover:text-primary' href="#hero">Home</a></li>
-//                      <li><a className='hover:text-primary' href="#services">Services</a></li>
-//                      <li><a className='hover:text-primary' href="#our-work">Our Work</a></li>
-//                      <li><a className='hover:text-primary' href="#contact-us">Contact Us</a></li>
-                
-//                 </ul>
-//             </div>
-
-//             <div className='text-gray-600 dark:text-gray-400'>
-
-//                 <h3 className='font-semibold'>Subscribe to our newsletter</h3>
-//                 <p className='text-sm mt-2 mb-6'>The lateset news, articles, and resources, sent to your inbox weekly.</p>
-//                 <div className='flex gap-2  text-sm'>
-//                     <input type="email" placeholder='Enter your email' className='w-full p-3 text-sm outline-none rounded dark:text-gray-200 bg-transparent border border-gray-300 dark:border-gray-500'/>
-//                     <button className='bg-primary text-white rounded px-6'>Subscribe</button>
-//                 </div>
-
-//             </div>
-//         </div>
-
-//         <hr className='border-gray-300 dark:border-gray-600 my-6'/>
-
-//         {/* footer bottom */}
-
-//         <div className='pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap'>
-//             <p>Copyright 2025 GreatStack -All Right Reserved.</p>
-//             <div className='flex items-center justify-between gap-4'>
-//                 <img src={assets.facebook_icon} alt="" />
-//                 <img src={assets.instagram_icon} alt="" />
-//                 <img src={assets.twitter_icon} alt="" />
-//                 <img src={assets.linkedin_icon} alt="" />
-//             </div>
-//         </div>
-      
-//     </div>
-//   )
-// }
-
-// export default Footer
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React from 'react'
 import assets from '../assets/assets'
 
 const Footer = ({theme, setTheme}) => {
     return (
         <div className='bg-white/50 dark:bg-gray-900/70 dark:text-white'>
-            <footer className="bg-black">
+            <footer className="bg-neutral-primary-soft">
                 <div className="mx-auto w-full p-4 py-6 lg:py-8">
                     <div className="md:flex md:justify-between">
                         <div className="mb-6 md:mb-0">
@@ -101,7 +34,7 @@ const Footer = ({theme, setTheme}) => {
                                 <h2 className="mb-6 font-extrabold uppercase">Follow us</h2>
                                 <ul className="text-body font-medium">
                                     <li className="mb-4">
-                                        <a href="https://github.com/aj-allenn" className="hover:underline ">Github</a>
+                                        <a href="https://github.com/abhijithpr08" className="hover:underline ">Github</a>
                                     </li>
                                     <li>
                                         <a href="#" className="hover:underline">Discord</a>
@@ -144,7 +77,7 @@ const Footer = ({theme, setTheme}) => {
                             </a>
                             <a href="#" className="text-body hover:text-heading ms-5">
                                 <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2a10 10 0 1 0 10 10A10.009 10.009 0 0 0 12 2Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.093 20.093 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM10 3.707a8.82 8.82 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.755 45.755 0 0 0 10 3.707Zm-6.358 6.555a8.57 8.57 0 0 1 4.73-5.981 53.99 53.99 0 0 1 3.168 4.941 32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.641 31.641 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM12 20.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 15.113 13a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd" /></svg>
-                                <span className="sr-only">Dribble account</span>
+                                <span className="sr-only">Dribbble account</span>
                             </a>
                         </div>
                     </div>
